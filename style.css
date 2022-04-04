@@ -1,11 +1,14 @@
 *{
     margin: auto;
+    width: 500px;
+    position: relative;
 }
 
 body{
+    margin: center;
     background-color: teal;
 }
 
-.big-div{
-    background-color: red;
+.giant-div{
+    background-color: green;
 }
