@@ -9,8 +9,10 @@
 </head>
 <body>
     <form>
+    <div class = "big-div">
         <label for="name">Name:</label>
         <input type="text" value="Name"/>
+        </div>
         <br>
         <label for="email">Email:</label>
         <input type="text" value="Email"/>
@@ -18,7 +20,20 @@
         <label for="age">Age (Optional):</label>
         <input type="text" value="Age"/>
         <br>
-        <label for=
+        <p1>What is my favorite food?</p1>
+        <br>
+        <input type="textarea" value="Enter response"/>
+        <br>
+       <p1>What is my favorite color?</p1> 
+       <br>
+      <input type="radio" id="color1" name="color1" value="Blue">
+      <label for="color1"> Blue</label><br>
+      <input type="radio" id="color2" name="color2" value="Yellow">
+      <label for="vehicle2"> Yellow</label><br>
+      <input type="radio" id="color3" name="color3" value="Green">
+      <label for="vehicle3"> Green</label> <br>
+      <input type="radio" id="color4" name="color4" value="Purple">
+      <label for="color4"> Purple</label>
     </form>
 </body>
 </html>
@@ -34,3 +49,16 @@
       <input type="checkbox" id="vehicle4" name="vehicle4" value="Walk">
       <label for="vehicle4"> I'm a walker</label>
 </form>
+<form action="/action_page.php" id="foodform">
+  <label for="fname">Firstname:</label>
+  <input type="text" id="fname" name="fname">
+  <input type="submit">
+</form>
+
+<label for="food">Choose a region of food:</label>
+<select name="South-American" id="Spanish" form="foodform">
+  <option value="North American">Murica</option>
+  <option value="Asian">Asia</option>
+  <option value="European">Europe</option>
+  <option value="Australian">Australia</option>
+</select>
