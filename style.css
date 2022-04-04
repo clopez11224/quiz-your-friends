@@ -9,6 +9,21 @@ body{
     background-color: teal;
 }
 
+<<<<<<< HEAD
 .giant-div{
     background-color: green;
+=======
+.big-div{
+    background-color: red;
+p1{
+    position: absolute;
+    font: sans-serif;
+    font-size: 20px;
+    top: 60px;
+}
+
+{
+    position: absolute;
+    font-size: 18px;
+>>>>>>> 661090eb75ff0efc6d11f9f071e95adf15d3568b
 }
